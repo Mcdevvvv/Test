@@ -1,0 +1,156 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+  }
+  body{
+      background: url(./Back-image.jpg) no-repeat;
+      background-size: cover;
+      background: maroon;
+  }
+  .main{
+      width: 40%;
+      height: 600px;
+      background-color: white;
+      text-align: center;
+      justify-content: center;
+      float: left;
+      margin: 40px 10px 0 150px;
+      border-radius: 10px;
+  }
+  .head{
+      background: black;
+      width: 96%;
+      height: 55px;
+      color: white;
+      padding: 10px;
+      margin-bottom: 60px;
+      margin-top: 10px;
+      margin-left: 10px;
+      margin-right: 10px;
+      border-radius: 10px;
+  }
+  .main input{
+      height: 30px;
+      width: 30%;
+      margin-bottom: 10px;
+      font-size: 20px;
+      font-family: sans-serif;
+  }
+  .main label{
+      font-size: 23px;
+      padding-right: 50px;
+      margin-bottom: 10px;
+      font-family: sans-serif;
+  }
+  .main label:hover{
+      color: blue;
+      transition: 0.5s;
+      cursor: pointer;
+  }
+  .btn1{
+      outline: none;
+      border: none;
+      height: 14%;
+      height: 40px;
+      margin-right: 30px;
+      margin-top: 22px;
+      padding: 0 33px;
+      background-color: rgb(240, 142, 71);
+      font-weight: bold;
+      border-radius: 20px;
+  }
+  .btn1:hover{
+      background-color: rgb(69, 212, 105);
+      transition: 0.5s;
+      cursor: pointer;
+  }
+  .btn2{
+      outline: none;
+      border: none;
+      height: 14%;
+      height: 40px;
+      margin-right: 30px;
+      margin-top: 22px;
+      background-color: rgb(240, 142, 71);
+      padding: 0 33px;
+      font-weight: bold;
+      border-radius: 20px;
+  }
+  .btn2:hover{
+      background-color: rgb(69, 212, 105);
+      transition: 0.5s;
+      cursor: pointer;
+  }
+  
+  .btn3{
+      outline: none;
+      border: none;
+      height: 14%;
+      height: 40px;
+      margin-right: 30px;
+      margin-top: 22px;
+      padding: 0 33px;
+      font-weight: bold;
+      border-radius: 20px;
+      background-color: rgb(240, 142, 71);
+  }
+  .btn3:hover{
+      background-color: rgb(69, 212, 105);
+      transition: 0.5s;
+      cursor: pointer;
+  }
+  #result{
+      height: 600px;
+      width: 30%;
+      float: left;
+      margin-top: 40px;
+      background-color: white;
+      border-radius: 15px;
+      border-color: 2px solid black;
+  }
+  #head1, #head2, #head3{
+      background-color: black;
+      width: 95%;
+      height: 60px;
+      color: white;
+      text-align: center;
+      border-radius: 15px;
+      margin-top: 10px;
+      margin-left: 10px;
+      margin-right: 10px;
+  }
+  #total{
+      height: 280px;
+      width: 100%;
+      padding: 20px;
+      background-color: white;
+      font-size: 19px;
+      font-weight: 600;
+      font-family: sans-serif;
+  
+  }
+  #ave{
+      height: 80px;
+      width: 100%;
+      padding: 20px;
+      background-color: white;
+      font-size: 19px;
+      font-weight: 600;
+      font-family: sans-serif;
+  }
+  #grade{
+      height: 80px;
+      width: 100%;
+      padding: 20px;
+      background-color: white;
+      font-size: 19px;
+      font-weight: 600;
+      text-align: center;
+      font-family: sans-serif;
+  }
+
